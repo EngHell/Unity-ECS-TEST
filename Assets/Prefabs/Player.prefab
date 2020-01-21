@@ -201,8 +201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1500594013586582145, guid: 32fdde06eb40d4540a95f23c976658d7,
     type: 3}
-  speed: 10
-  maxDistanceTraveled: 10
+  speed: 5
+  maxDistanceTraveled: 20
 --- !u!114 &844467101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
     z: 1
   m_PrimitiveOrientation:
     Value:
-      x: -0
+      x: 0
       y: 0
       z: 0
     RotationOrder: 4
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    moveSpeed: 5
+    moveSpeed: 0
 --- !u!114 &5242345923680632661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MotionType: 1
+  m_MotionType: 0
   m_Mass: 1
   m_LinearDamping: 0.01
   m_AngularDamping: 0.05
