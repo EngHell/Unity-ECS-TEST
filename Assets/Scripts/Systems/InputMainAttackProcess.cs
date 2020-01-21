@@ -21,7 +21,6 @@ namespace Systems
                 {
                     var instance = EntityManager.Instantiate(bulletAuthoring.prefabEntity);
                     float3 vel = math.normalize(vectorToMouse.Value) * bulletAuthoring.speed;
-                    Debug.Log(string.Format("vel: {0}", vel));
                     float time = bulletAuthoring.attackRange / bulletAuthoring.speed;
                     
 
