@@ -17,7 +17,7 @@ namespace Systems
             float3 mousePos = UnityEngine.Input.mousePosition;
             //Debug.Log("mousePos:" + mousePos);
             //mousePos.z = 10;
-            float3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, Camera.main.nearClipPlane));
+            float3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 10));
 
         
             var jobHandle = Entities

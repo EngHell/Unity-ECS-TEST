@@ -11,5 +11,7 @@ namespace Components.Prefabs
         public Entity prefabEntity;
         public float speed;
         public float attackRange;
+        public Mono.BulletConvertToEntityAuthoring.TYPE type;
+        public float maxTimeInFly;
     }
 }

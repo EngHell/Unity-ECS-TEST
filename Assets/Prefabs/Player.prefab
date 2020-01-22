@@ -199,10 +199,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a04cb5957ea8abf4296354240626e7aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 1
   bulletPrefab: {fileID: 1500594013586582145, guid: 32fdde06eb40d4540a95f23c976658d7,
     type: 3}
+  attackRange: 5
   speed: 5
-  maxDistanceTraveled: 5
+  maxTimeInFly: 2
 --- !u!114 &844467101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    moveSpeed: 0
+    moveSpeed: 5
 --- !u!114 &5242345923680632661
 MonoBehaviour:
   m_ObjectHideFlags: 0

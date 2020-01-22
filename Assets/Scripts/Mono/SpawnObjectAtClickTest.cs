@@ -17,9 +17,9 @@ public class SpawnObjectAtClickTest : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Vector3 mousePos = UnityEngine.Input.mousePosition;
-            Debug.Log("mousePos:" + mousePos);
+            //Debug.Log("mousePos:" + mousePos);
             //mousePos.z = 10;
-            Vector3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, Camera.main.nearClipPlane));
+            Vector3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 10));
 
             var o = Instantiate(prefab);
             mouseInWorld.y = 0;
